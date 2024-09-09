@@ -1,0 +1,1 @@
+import tkinter as tk\n\nroot = tk.Tk()\nroot.title('Hello World Window')\nroot.geometry('300x200')\nroot.resizable(True, True)\n\nlabel = tk.Label(root, text='Hello World')\nlabel.pack(pady=20)\n\nroot.mainloop()
